@@ -4,9 +4,23 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+h1, h2, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 20px;
+}
+
 a {
     text-decoration: none;
 }
+
+button {
+    border: none;
+}
+
+/* ##### BEGINNING OF THE "HEADER" PART ##### */
 
 header {
     display: flex;
@@ -30,3 +44,99 @@ nav {
     color: #0065FC;
     border-top: solid 2px #0065FC;
 }
+
+/* ##### END OF THE "HEADER" PART ##### */
+/* ##### BEGINNING OF THE "RESEARCH_AREA" PART ##### */
+
+.researchArea {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 48px;
+}
+
+.researchDescription__title {
+    margin-bottom: 6px;
+}
+
+.researchInput {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    background-color: #f2f2f2;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.researchInput__icon {
+    padding: 14px 16px;
+    align-self: center;
+}
+
+.researchInput__input {
+    padding: 8px 16px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.researchInput__submitButton {
+    padding: 0 12px;
+    color: white;
+    background-color: #0065FC;
+    font-size: 15px;
+}
+
+.researchFilters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.researchFilters__label {
+    font-weight: bold;
+}
+
+.researchFilters__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border: 2px solid #d9d9d9;
+    border-radius: 32px;
+}
+
+.researchFilters__item:hover {
+    background-color: #deebff;
+}
+
+.researchFilters__itemIcon {
+    color: #0065FC;
+}
+
+.researchFilters__itemText {
+    font-weight: bold;
+}
+
+.researchInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.researchInfo__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    color: #0065FC;
+    border: 1px solid #d9d9d9;
+    border-radius: 16px;
+}
+
+/* ##### END OF THE "RESEARCH_AREA" PART ##### */
+/* ##### BEGINNING OF THE "?" PART ##### */
