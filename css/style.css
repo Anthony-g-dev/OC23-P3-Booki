@@ -60,6 +60,7 @@ button {
     border: 5px solid #ffffff;
     border-radius: 16px;
     overflow: hidden;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
 .card__imageContainer {
@@ -67,11 +68,14 @@ button {
     justify-content: center;
     align-items: center;
     height: 120px;
+    width: 240px;
     overflow: hidden;
 }
 
 .card__image {
-    width: 240px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .card__content {
@@ -97,17 +101,23 @@ button {
 .card--horizontal .card__imageContainer {
     width: 123px;
     height: 144px;
-    object-fit: cover;
-}
-
-.card--horizontal .card__image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 .card--horizontal .card__stars {
     margin-top: auto;
+}
+
+.card--bigPicture {
+    border: none;
+}
+
+.card--bigPicture .card__imageContainer {
+    width: 297.5px;
+    height: 380px;
+}
+
+.card--bigPicture .card__content {
+    padding: 20px 19px;
 }
 
 
@@ -269,8 +279,6 @@ nav {
 }
 
 .accommodationArea__container {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -318,4 +326,20 @@ nav {
 
 .mostPopularArea__item {
     width: 100%;
+}
+
+/* ##### END OF THE "RESULT_SECTION" PART ##### */
+/* ##### BEGINNING OF THE "ACTIVITIES_SECTION" PART ##### */
+
+.activitiesSection {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
+
+.activitiesSection__container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }
