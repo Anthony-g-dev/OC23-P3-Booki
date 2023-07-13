@@ -13,6 +13,7 @@
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta name="description" content="Description">
+		<link rel="icon" type="image/png" href="img/icon.png"/>
 		<link rel="stylesheet" href="css/style.css"/>
 		<title>Booki</title>
 	</head>
@@ -35,25 +36,27 @@
 				<div class="researchInput">
 					<i class="fa-solid fa-location-dot researchInput__icon"></i>
 					<input type="text" value="Marseille, France" size="11" class="researchInput__input" name="researchDestination" id="researchDestination">
-					<button class="researchInput__submitButton">Rechercher</button>
+					<button class="researchInput__submitButton"><i class="fa-solid fa-magnifying-glass researchInput__submitButtonIcon"></i><span class="researchInput__submitButtonText">Rechercher</span></button>
 				</div>
 				<div class="researchFilters">
 					<span class="researchFilters__label">Filtres</span>
-					<div class="researchFilters__item">
-						<i class="fa-solid fa-money-bill-wave researchFilters__itemIcon"></i>
-						<span class="researchFilters__itemText">Économique</span>
-					</div>
-					<div class="researchFilters__item">
-						<i class="fa-solid fa-person researchFilters__itemIcon"></i>
-						<span class="researchFilters__itemText">Familial</span>
-					</div>
-					<div class="researchFilters__item">
-						<i class="fa-solid fa-heart researchFilters__itemIcon"></i>
-						<span class="researchFilters__itemText">Romantique</span>
-					</div>
-					<div class="researchFilters__item">
-						<i class="fa-solid fa-fire researchFilters__itemIcon"></i>
-						<span class="researchFilters__itemText">Nos pépites</span>
+					<div class="researchFilters__container">
+						<div class="researchFilters__item">
+							<i class="fa-solid fa-money-bill-wave researchFilters__itemIcon"></i>
+							<span class="researchFilters__itemText">Économique</span>
+						</div>
+						<div class="researchFilters__item">
+							<i class="fa-solid fa-person researchFilters__itemIcon"></i>
+							<span class="researchFilters__itemText">Familial</span>
+						</div>
+						<div class="researchFilters__item">
+							<i class="fa-solid fa-heart researchFilters__itemIcon"></i>
+							<span class="researchFilters__itemText">Romantique</span>
+						</div>
+						<div class="researchFilters__item">
+							<i class="fa-solid fa-fire researchFilters__itemIcon"></i>
+							<span class="researchFilters__itemText">Nos pépites</span>
+						</div>
 					</div>
 				</div>
 				<div class="researchInfo">
@@ -70,11 +73,11 @@
 						<!-- RESULT #1 -->
 						<a href="#" class="accommodationArea__item card">
 							<div class="card__imageContainer">
-								<img class="card__image" src="img/acommodation_1.jpg" alt="">
+								<img class="card__image" src="img/acommodation_1.jpg" alt="Chambre de l'Hôtel du port">
 							</div>
 							<div class="card__content">
 								<h3 class="card__title">Hôtel du port</h3>
-								<span class="card__description">Nuit à partir de 52€</span>
+								<span class="card__description">Nuit à partir de 52<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
@@ -87,11 +90,11 @@
 						<!-- RESULT #2 -->
 						<a href="#" class="accommodationArea__item card">
 							<div class="card__imageContainer">
-								<img class="card__image" src="img/acommodation_2.jpg" alt="">
+								<img class="card__image" src="img/acommodation_2.jpg" alt="Chambre de l'Hôtel Chez Amina">
 							</div>
 							<div class="card__content">
 								<h3 class="card__title">Hôtel Chez Amina</h3>
-								<span class="card__description">Nuit à partir de 96€</span>
+								<span class="card__description">Nuit à partir de 96<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
@@ -104,11 +107,11 @@
 						<!-- RESULT #3 -->
 						<a href="#" class="accommodationArea__item card">
 							<div class="card__imageContainer">
-								<img class="card__image" src="img/acommodation_3.jpg" alt="">
+								<img class="card__image" src="img/acommodation_3.jpg" alt="Chambre de l'Hôtel Les mouettes">
 							</div>
 							<div class="card__content">
 								<h3 class="card__title">Hôtel Les mouettes</h3>
-								<span class="card__description">Nuit à partir de 76€</span>
+								<span class="card__description">Nuit à partir de 76<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
@@ -121,11 +124,11 @@
 						<!-- RESULT #4 -->
 						<a href="#" class="accommodationArea__item card">
 							<div class="card__imageContainer">
-								<img class="card__image" src="img/acommodation_4.jpg" alt="">
+								<img class="card__image" src="img/acommodation_4.jpg" alt="Chambre de l'Hôtel de la mer">
 							</div>
 							<div class="card__content">
 								<h3 class="card__title">Hôtel de la mer</h3>
-								<span class="card__description">Nuit à partir de 46€</span>
+								<span class="card__description">Nuit à partir de 46<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
@@ -138,11 +141,11 @@
 						<!-- RESULT #5 -->
 						<a href="#" class="accommodationArea__item card">
 							<div class="card__imageContainer">
-								<img class="card__image" src="img/acommodation_5.jpg" alt="">
+								<img class="card__image" src="img/acommodation_5.jpg" alt="Chambre de l'Auberge La Canebière">
 							</div>
 							<div class="card__content">
 								<h3 class="card__title">Auberge La Canebière</h3>
-								<span class="card__description">Nuit à partir de 25€</span>
+								<span class="card__description">Nuit à partir de 25<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
@@ -155,11 +158,11 @@
 						<!-- RESULT #6 -->
 						<a href="#" class="accommodationArea__item card">
 							<div class="card__imageContainer">
-								<img class="card__image" src="img/acommodation_6.jpg" alt="">
+								<img class="card__image" src="img/acommodation_6.jpg" alt="Chambre de l'Auberge Le Panier">
 							</div>
 							<div class="card__content">
 								<h3 class="card__title">Auberge Le Panier</h3>
-								<span class="card__description">Nuit à partir de 23€</span>
+								<span class="card__description">Nuit à partir de 23<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
@@ -181,11 +184,11 @@
 						<!-- RESULT #1 -->
 						<a href="#" class="mostPopularArea__item card card--horizontal">
 							<div class="card__imageContainer">
-								<img class="card__image" src="img/most_popular_1.jpg" alt="">
+								<img class="card__image" src="img/most_popular_1.jpg" alt="Chambre de l'Hôtel Le soleil du matin">
 							</div>
 							<div class="card__content">
-								<h3 class="card__title">Auberge la Canebière</h3>
-								<span class="card__description">Nuit à partir de 25€</span>
+								<h3 class="card__title">Hôtel Le soleil du matin</h3>
+								<span class="card__description">Nuit à partir de 25<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star mostPopularArea__itemStar mostPopularArea__itemStar--active"></i>
 									<i class="fa-solid fa-star mostPopularArea__itemStar mostPopularArea__itemStar--active"></i>
@@ -198,11 +201,11 @@
 						<!-- RESULT #2 -->
 						<a href="#" class="mostPopularArea__item card card--horizontal">
 							<div class="card__imageContainer">
-								<img class="card__image" src="img/most_popular_2.jpg" alt="">
+								<img class="card__image" src="img/most_popular_2.jpg" alt="Chambres d’hôtes Au cœur de l’eau">
 							</div>
 							<div class="card__content">
 								<h3 class="card__title">Chambres d’hôtes Au cœur de l’eau</h3>
-								<span class="card__description">Nuit à partir de 71€</span>
+								<span class="card__description">Nuit à partir de 71<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star mostPopularArea__itemStar mostPopularArea__itemStar--active"></i>
 									<i class="fa-solid fa-star mostPopularArea__itemStar mostPopularArea__itemStar--active"></i>
@@ -215,11 +218,11 @@
 						<!-- RESULT #3 -->
 						<a href="#" class="mostPopularArea__item card card--horizontal">
 							<div class="card__imageContainer">
-								<img class="card__image" src="img/most_popular_3.jpg" alt="">
+								<img class="card__image" src="img/most_popular_3.jpg" alt="Chambre de l'Hôtel Bleu et Blanc">
 							</div>
 							<div class="card__content">
 								<h3 class="card__title">Hôtel Bleu et Blanc</h3>
-								<span class="card__description">Nuit à partir de 68€</span>
+								<span class="card__description">Nuit à partir de 68<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star mostPopularArea__itemStar mostPopularArea__itemStar--active"></i>
 									<i class="fa-solid fa-star mostPopularArea__itemStar mostPopularArea__itemStar--active"></i>
@@ -238,7 +241,7 @@
 					<!-- RESULT #1 -->
 					<a href="#" class="activitiesSection__item card card--bigPicture">
 						<div class="card__imageContainer">
-							<img class="card__image" src="img/activity_1.jpg" alt="">
+							<img class="card__image" src="img/activity_1.jpg" alt="Le Vieux-Port">
 						</div>
 						<div class="card__content">
 							<h3 class="card__title">Vieux-Port</h3>
@@ -247,7 +250,7 @@
 					<!-- RESULT #2 -->
 					<a href="#" class="activitiesSection__item card card--bigPicture">
 						<div class="card__imageContainer">
-							<img class="card__image" src="img/activity_2.jpg" alt="">
+							<img class="card__image" src="img/activity_2.jpg" alt="Le Fort de Pomègues">
 						</div>
 						<div class="card__content">
 							<h3 class="card__title">Fort de Pomègues</h3>
@@ -256,7 +259,7 @@
 					<!-- RESULT #3 -->
 					<a href="#" class="activitiesSection__item card card--bigPicture">
 						<div class="card__imageContainer">
-							<img class="card__image" src="img/activity_3.jpg" alt="">
+							<img class="card__image" src="img/activity_3.jpg" alt="Le Parc national des Calanques">
 						</div>
 						<div class="card__content">
 							<h3 class="card__title">Parc national des Calanques</h3>
@@ -265,7 +268,7 @@
 					<!-- RESULT #4 -->
 					<a href="#" class="activitiesSection__item card card--bigPicture">
 						<div class="card__imageContainer">
-							<img class="card__image" src="img/activity_4.jpg" alt="">
+							<img class="card__image" src="img/activity_4.jpg" alt="Notre-Dame-de-la-Garde">
 						</div>
 						<div class="card__content">
 							<h3 class="card__title">Notre-Dame-de-la-Garde</h3>
