@@ -24,7 +24,6 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: top;
 }
 
 nav {
@@ -146,6 +145,10 @@ button {
 
 .brand {
     padding: 30px;
+}
+
+.brand__logo {
+    width: 64px;
 }
 
 .nav__item {
@@ -312,6 +315,7 @@ button {
 }
 
 .accommodationArea__seeMore {
+    width: fit-content;
     font-size: 18px;
     font-weight: bold;
 }
