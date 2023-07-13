@@ -20,12 +20,33 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    padding: 0 50px;
+}
+
 main {
     display: flex;
     flex-direction: column;
     gap: 30px;
     margin-top: 30px;
     padding: 0 50px;
+}
+
+footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--booki-light-grey);
 }
 
 h1, h2, h3, p {
@@ -55,7 +76,6 @@ button {
 .card {
     display: flex;
     flex-direction: column;
-    width: fit-content;
     background-color: #ffffff;
     border: 5px solid #ffffff;
     border-radius: 16px;
@@ -123,19 +143,6 @@ button {
 
 
 /* ##### BEGINNING OF THE "HEADER" PART ##### */
-
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: top;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    gap: 64px;
-}
 
 .brand {
     padding: 30px;
@@ -279,9 +286,8 @@ nav {
 }
 
 .accommodationArea__container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
 
@@ -343,3 +349,17 @@ nav {
     flex-direction: row;
     gap: 30px;
 }
+
+/* ##### END OF THE "ACTIVITIES_SECTION" PART ##### */
+/* ##### BEGINNING OF THE "FOOTER" PART ##### */
+
+.footerColumn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+/* ##### END OF THE "FOOTER" PART ##### */
+/* ##### BEGINNING OF MEDIA QUERIES ##### */
