@@ -29,16 +29,16 @@
 		</header>
 		<main>
 			<section class="researchSection">
-				<article class="researchDescription">
+				<div class="researchDescription">
 					<h1 class="researchDescription__title">Trouvez votre hébergement pour des vacances de rêve</h1>
 					<p class="researchDescription__subtitle">En plein centre-ville ou en pleine nature</p>
-				</article>
-				<article class="researchInput">
+				</div>
+				<div class="researchInput">
 					<i class="fa-solid fa-location-dot researchInput__icon"></i>
 					<input type="text" value="Marseille, France" class="researchInput__input" name="researchDestination" id="researchDestination">
 					<button class="researchInput__submitButton"><i class="fa-solid fa-magnifying-glass researchInput__submitButtonIcon"></i><span class="researchInput__submitButtonText">Rechercher</span></button>
-				</article>
-				<article class="researchFilters">
+				</div>
+				<div class="researchFilters">
 					<span class="researchFilters__label">Filtres</span>
 					<div class="researchFilters__container">
 						<div class="researchFilters__item">
@@ -58,17 +58,17 @@
 							<span class="researchFilters__itemText">Nos pépites</span>
 						</div>
 					</div>
-				</article>
-				<article class="researchInfo">
+				</div>
+				<div class="researchInfo">
 					<div class="researchInfo__icon">
 						<i class="fa-solid fa-info"></i>
 					</div>
 					<span>Plus de 500 logements sont disponibles dans cette ville</span>
-				</article>
+				</div>
 			</section>
 			<section id="resultSection" class="resultSection">
 				<article class="accommodationArea">
-					<h1 class="accommodationArea__title">Hébergements à Marseille</h1>
+					<h2 class="accommodationArea__title">Hébergements à Marseille</h2>
 					<div class="accommodationArea__container">
 						<!-- RESULT #1 -->
 						<a href="#" class="accommodationArea__item card">
@@ -76,7 +76,7 @@
 								<img class="card__image" src="img/acommodation_1.jpg" alt="Chambre de l'Hôtel du port">
 							</div>
 							<div class="card__content">
-								<h3 class="card__title">Hôtel du port</h3>
+								<span class="card__title">Hôtel du port</span>
 								<span class="card__description">Nuit à partir de 52<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
@@ -93,7 +93,7 @@
 								<img class="card__image" src="img/acommodation_2.jpg" alt="Chambre de l'Hôtel Chez Amina">
 							</div>
 							<div class="card__content">
-								<h3 class="card__title">Hôtel Chez Amina</h3>
+								<span class="card__title">Hôtel Chez Amina</span>
 								<span class="card__description">Nuit à partir de 96<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
@@ -110,7 +110,7 @@
 								<img class="card__image" src="img/acommodation_3.jpg" alt="Chambre de l'Hôtel Les mouettes">
 							</div>
 							<div class="card__content">
-								<h3 class="card__title">Hôtel Les mouettes</h3>
+								<span class="card__title">Hôtel Les mouettes</span>
 								<span class="card__description">Nuit à partir de 76<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
@@ -127,7 +127,7 @@
 								<img class="card__image" src="img/acommodation_4.jpg" alt="Chambre de l'Hôtel de la mer">
 							</div>
 							<div class="card__content">
-								<h3 class="card__title">Hôtel de la mer</h3>
+								<span class="card__title">Hôtel de la mer</span>
 								<span class="card__description">Nuit à partir de 46<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
@@ -144,7 +144,7 @@
 								<img class="card__image" src="img/acommodation_5.jpg" alt="Chambre de l'Auberge La Canebière">
 							</div>
 							<div class="card__content">
-								<h3 class="card__title">Auberge La Canebière</h3>
+								<span class="card__title">Auberge La Canebière</span>
 								<span class="card__description">Nuit à partir de 25<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
@@ -161,7 +161,7 @@
 								<img class="card__image" src="img/acommodation_6.jpg" alt="Chambre de l'Auberge Le Panier">
 							</div>
 							<div class="card__content">
-								<h3 class="card__title">Auberge Le Panier</h3>
+								<span class="card__title">Auberge Le Panier</span>
 								<span class="card__description">Nuit à partir de 23<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star accommodationArea__itemStar accommodationArea__itemStar--active"></i>
@@ -177,7 +177,7 @@
 				</article>
 				<article class="mostPopularArea">
 					<div class="mostPopularArea__title">
-						<h1>Les plus populaires</h1>
+						<h2>Les plus populaires</h2>
 						<i class="fa-solid fa-chart-line mostPopularArea__titleIcon"></i>
 					</div>
 					<div class="mostPopularArea__container">
@@ -187,7 +187,7 @@
 								<img class="card__image" src="img/most_popular_1.jpg" alt="Chambre de l'Hôtel Le soleil du matin">
 							</div>
 							<div class="card__content">
-								<h3 class="card__title">Hôtel Le soleil du matin</h3>
+								<span class="card__title">Hôtel Le soleil du matin</span>
 								<span class="card__description">Nuit à partir de 25<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star mostPopularArea__itemStar mostPopularArea__itemStar--active"></i>
@@ -204,7 +204,7 @@
 								<img class="card__image" src="img/most_popular_2.jpg" alt="Chambres d’hôtes Au cœur de l’eau">
 							</div>
 							<div class="card__content">
-								<h3 class="card__title">Chambres d’hôtes Au cœur de l’eau</h3>
+								<span class="card__title">Chambres d’hôtes Au cœur de l’eau</span>
 								<span class="card__description">Nuit à partir de 71<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star mostPopularArea__itemStar mostPopularArea__itemStar--active"></i>
@@ -221,7 +221,7 @@
 								<img class="card__image" src="img/most_popular_3.jpg" alt="Chambre de l'Hôtel Bleu et Blanc">
 							</div>
 							<div class="card__content">
-								<h3 class="card__title">Hôtel Bleu et Blanc</h3>
+								<span class="card__title">Hôtel Bleu et Blanc</span>
 								<span class="card__description">Nuit à partir de 68<b>€</b></span>
 								<div class="card__stars">
 									<i class="fa-solid fa-star mostPopularArea__itemStar mostPopularArea__itemStar--active"></i>
@@ -236,7 +236,7 @@
 				</article>
 			</section>
 			<section id="activitiesSection" class="activitiesSection">
-				<h1 class="activitiesSection__title">Activités à Marseille</h1>
+				<h2 class="activitiesSection__title">Activités à Marseille</h2>
 				<div class="activitiesSection__container">
 					<!-- RESULT #1 -->
 					<a href="#" class="activitiesSection__item card card--bigPicture">
@@ -244,7 +244,7 @@
 							<img class="card__image" src="img/activity_1.jpg" alt="Le Vieux-Port">
 						</div>
 						<div class="card__content">
-							<h3 class="card__title">Vieux-Port</h3>
+							<span class="card__title">Vieux-Port</span>
 						</div>
 					</a>
 					<!-- RESULT #2 -->
@@ -253,7 +253,7 @@
 							<img class="card__image" src="img/activity_2.jpg" alt="Le Fort de Pomègues">
 						</div>
 						<div class="card__content">
-							<h3 class="card__title">Fort de Pomègues</h3>
+							<span class="card__title">Fort de Pomègues</span>
 						</div>
 					</a>
 					<!-- RESULT #3 -->
@@ -262,7 +262,7 @@
 							<img class="card__image" src="img/activity_3.jpg" alt="Le Parc national des Calanques">
 						</div>
 						<div class="card__content">
-							<h3 class="card__title">Parc national des Calanques</h3>
+							<span class="card__title">Parc national des Calanques</span>
 						</div>
 					</a>
 					<!-- RESULT #4 -->
@@ -271,7 +271,7 @@
 							<img class="card__image" src="img/activity_4.jpg" alt="Notre-Dame-de-la-Garde">
 						</div>
 						<div class="card__content">
-							<h3 class="card__title">Notre-Dame-de-la-Garde</h3>
+							<span class="card__title">Notre-Dame-de-la-Garde</span>
 						</div>
 					</a>
 				</div>
@@ -279,18 +279,18 @@
 		</main>
 		<footer>
 			<div class="footerColumn">
-				<h2 class="footerColumn__title">À propos</h2>
+				<h3 class="footerColumn__title">À propos</h3>
 				<a href="#" class="footerColumn__linkItem">Fonctionnement du site</a>
 				<a href="#" class="footerColumn__linkItem">Conditions générales</a>
 				<a href="#" class="footerColumn__linkItem">Données et confidentialité</a>
 			</div>
 			<div class="footerColumn">
-				<h2 class="footerColumn__title">Nos hébergements</h2>
+				<h3 class="footerColumn__title">Nos hébergements</h3>
 				<a href="#" class="footerColumn__linkItem">Charte qualité</a>
 				<a href="#" class="footerColumn__linkItem">Proposer votre hôtel</a>
 			</div>
 			<div class="footerColumn">
-				<h2 class="footerColumn__title">Assistance</h2>
+				<h3 class="footerColumn__title">Assistance</h3>
 				<a href="#" class="footerColumn__linkItem">Centre d’aide</a>
 				<a href="#" class="footerColumn__linkItem">Nous contacter</a>
 			</div>

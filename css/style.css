@@ -58,10 +58,10 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 22px;
 }
 h3 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 a {
@@ -96,6 +96,11 @@ button {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.card__title {
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .card__content {
