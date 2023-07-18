@@ -23,22 +23,22 @@
 				<img src="img/logo.png" alt="Logo Booki" class="brand__logo">
 			</div>
 			<nav>
-				<a href="#" class="nav__item">Hébergements</a>
-				<a href="#" class="nav__item">Activités</a>
+				<a href="#resultSection" class="nav__item">Hébergements</a>
+				<a href="#activitiesSection" class="nav__item">Activités</a>
 			</nav>
 		</header>
 		<main>
 			<section class="researchSection">
-				<div class="researchDescription">
+				<article class="researchDescription">
 					<h1 class="researchDescription__title">Trouvez votre hébergement pour des vacances de rêve</h1>
 					<p class="researchDescription__subtitle">En plein centre-ville ou en pleine nature</p>
-				</div>
-				<div class="researchInput">
+				</article>
+				<article class="researchInput">
 					<i class="fa-solid fa-location-dot researchInput__icon"></i>
-					<input type="text" value="Marseille, France" size="11" class="researchInput__input" name="researchDestination" id="researchDestination">
+					<input type="text" value="Marseille, France" class="researchInput__input" name="researchDestination" id="researchDestination">
 					<button class="researchInput__submitButton"><i class="fa-solid fa-magnifying-glass researchInput__submitButtonIcon"></i><span class="researchInput__submitButtonText">Rechercher</span></button>
-				</div>
-				<div class="researchFilters">
+				</article>
+				<article class="researchFilters">
 					<span class="researchFilters__label">Filtres</span>
 					<div class="researchFilters__container">
 						<div class="researchFilters__item">
@@ -58,16 +58,16 @@
 							<span class="researchFilters__itemText">Nos pépites</span>
 						</div>
 					</div>
-				</div>
-				<div class="researchInfo">
+				</article>
+				<article class="researchInfo">
 					<div class="researchInfo__icon">
 						<i class="fa-solid fa-info"></i>
 					</div>
 					<span>Plus de 500 logements sont disponibles dans cette ville</span>
-				</div>
+				</article>
 			</section>
-			<section class="resultSection">
-				<div class="accommodationArea">
+			<section id="resultSection" class="resultSection">
+				<article class="accommodationArea">
 					<h1 class="accommodationArea__title">Hébergements à Marseille</h1>
 					<div class="accommodationArea__container">
 						<!-- RESULT #1 -->
@@ -174,8 +174,8 @@
 						</a>
 					</div>
 					<a href="#" class="accommodationArea__seeMore">Afficher plus</a>
-				</div>
-				<div class="mostPopularArea">
+				</article>
+				<article class="mostPopularArea">
 					<div class="mostPopularArea__title">
 						<h1>Les plus populaires</h1>
 						<i class="fa-solid fa-chart-line mostPopularArea__titleIcon"></i>
@@ -233,9 +233,9 @@
 							</div>
 						</a>
 					</div>
-				</div>
+				</article>
 			</section>
-			<section class="activitiesSection">
+			<section id="activitiesSection" class="activitiesSection">
 				<h1 class="activitiesSection__title">Activités à Marseille</h1>
 				<div class="activitiesSection__container">
 					<!-- RESULT #1 -->
